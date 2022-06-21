@@ -26,7 +26,7 @@ h1{
     left: 75%;
     text-align: center;
     background-color: aqua;
-    font-size: 1.5vw;
+    font-size: 20px;
 }
 
 #p2 {
@@ -45,5 +45,12 @@ h1{
 	.box3 {
 		width: calc(100% - 20px);
 		clear: left;
+	}
+}
+
+/*Movile layout (equal or less than 767px)*/
+@media (max-width: 767px) {
+	.box1, .box2, .box3 {
+		width: calc(100% - 20px);
 	}
 }
