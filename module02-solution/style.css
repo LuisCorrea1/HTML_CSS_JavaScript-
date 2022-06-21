@@ -36,3 +36,14 @@ h1{
     margin-right: 15px;
     margin-bottom: 15px;
 }
+
+/*Tablet layout (between 768px and 991px)*/
+@media (max-width: 991px) and (min-width: 768px) {
+	.box1, .box2 {
+		width: calc(50% - 20px);
+	}
+	.box3 {
+		width: calc(100% - 20px);
+		clear: left;
+	}
+}
