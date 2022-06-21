@@ -10,3 +10,29 @@ h1{
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+.box1, .box2, .box3 {
+    float: left;
+    width: calc(33.33% - 20px);
+    background-color: aqua;
+    margin: 10px;
+}
+
+#p1_1, #p1_2, #p1_3{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px black solid;
+    width: 25%;
+    left: 75%;
+    text-align: center;
+    background-color: aqua;
+    font-size: 1.5vw;
+}
+
+#p2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aqua;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
