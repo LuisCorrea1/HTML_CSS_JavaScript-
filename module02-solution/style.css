@@ -14,7 +14,8 @@ h1{
 .box1, .box2, .box3 {
     float: left;
     width: calc(33.33% - 20px);
-    background-color: aqua;
+    background-color: rgb(79, 128, 151);
+	border: 2px black solid;
     margin: 10px;
 }
 
@@ -25,16 +26,33 @@ h1{
     width: 25%;
     left: 75%;
     text-align: center;
-    background-color: aqua;
     font-size: 20px;
+}
+
+#p1_1 {
+	background-color: rgb(46, 46, 170);
+	color: white;
+	font-weight: 300;
+}
+
+#p1_2 {
+	background-color: rgb(103, 175, 80);
+	color: white;
+	font-weight: 300;
+}
+
+#p1_3 {
+	background-color: rgb(201, 149, 80);
+	color: white;
+	font-weight: 300;
 }
 
 #p2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: aqua;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 15px;
+	color: rgba(31, 29, 29, 0.911);
 }
 
 /*Tablet layout (between 768px and 991px)*/
