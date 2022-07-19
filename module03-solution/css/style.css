@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+/* NAVBAR */
 .navbar-brand {
     padding: 10px;
 }
@@ -33,3 +34,27 @@
 	border: 2px solid grey;
 	text-align: center;
 }
+
+/* END NAVBAR */
+
+/* MAIN CONTENT */
+.container {
+	max-width: 90%;
+}
+.container h1{
+	padding-top: 10px;
+	text-align: center;
+}
+#description{
+	background-color: grey;
+	border: 2px solid black;
+}
+
+#heading p {
+	text-align: center;
+	font-weight: 700;
+	margin-top: 20px;
+	font-size: 22px;
+	color: black;
+}
+/* END MAIN CONTENT */
